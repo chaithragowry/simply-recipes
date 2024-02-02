@@ -29,6 +29,7 @@ function Menus() {
                   <Hero />
                   <Routes>
                      <Route path="/" element={<HomePage />} />
+                     <Route path="/simply-recipes" element={<HomePage />} />
                      <Route path='/specialdishes' element={<SpecialDishes />} />
                      <Route path='/dishesfiltered' element={<DishesFiltered />} />
                      <Route path="/checkout" element={<Checkout />} />
