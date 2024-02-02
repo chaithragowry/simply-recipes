@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Jost:wght@400;500&family=Kalam&family=Plus+Jakarta+Sans:ital,wght@0,400;1,300&display=swap');
+
+$home-image : 'food4.png';
+$background-image :'cover.png';
+
+.hero-container{
+  background: url('../assets/images/#{$background-image}');
+  background-size: cover;
+  width:100%;
+  height:100vh;
+
+  .hero-nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    color: whitesmoke;
+    padding:0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color:#EEBBC3;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .nav{
+    position: relative;
+    left:-400px;
+    
+  }
+
+  a{
+    padding:5px 15px;
+    color:#EEBBC3;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  
+  &:hover{
+    color:rgb(230, 227, 227);
+    
+    
+  }
+  &.active {
+  
+    color:aliceblue;
+    text-underline-position: under;
+  }
+}
+.hero-content{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:65px;
+  align-items: center;
+}
+.left{
+  margin-left:-30px;
+}
+h2{
+  font-size: 28px;
+  font-family: 'Jost', sans-serif;
+  color:rgb(228, 227, 227);
+  line-height: 60px;
+  letter-spacing: 4px;
+}
+h4{
+  font-size: 24px;
+  color:#EEBBC3;
+  font-family: 'Kalam', cursive;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.right{
+  width:420px;
+  height:445px;
+  background: url('../assets/images/#{$home-image}');
+  background-size: contain;
+  border-radius: 400px;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+  margin-right: -17px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  
+}
+
+.right::before{
+  width: 410px;
+  height:410px;
+  border: 3px solid white;
+  content: '';
+  position: absolute;
+  border-radius: 410px;
+  padding:3px;
+  
+}
+}

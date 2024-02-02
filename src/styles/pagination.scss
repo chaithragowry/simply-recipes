@@ -1,0 +1,27 @@
+
+.pagination{
+    justify-content: center;
+    margin:50px 0 0;
+    margin-left: -50px;
+
+    li{
+        width:30px;
+        height:30px;
+        border:1px solid gray;
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding:8px;
+        transition:all ease 0.3s;
+        color:#EEBBC3;
+        font-weight: bold;
+
+&:hover{
+    background-color: #EEBBC3;
+    border-color:#B8C1EC;
+    color:#232946;
+}
+    }
+}

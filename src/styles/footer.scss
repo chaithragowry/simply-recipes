@@ -1,0 +1,105 @@
+$footer-image : 'footer.png';
+
+footer {
+
+    background: url('../assets/images/#{$footer-image}');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-info {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding: 50px 0;
+
+        h2 {
+            margin-bottom: 20px;
+            color: #B8C1EC;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 22px;
+        }
+
+        .footer-info .footer-width {
+            padding: 0 55px;
+        }
+
+        .footer-width {
+            margin-top: 40px;
+        }
+
+        .about {
+            width: 45%;
+            margin-left: 30px;
+            color: #EEBBC3;
+            font-family: 'Kalam', cursive;
+            font-size: 17px;
+            text-align: justify;
+            word-spacing: 3px;
+            line-height: 30px;
+        }
+
+        .social-links {
+            margin-top: 30px;
+
+            ul {
+                display: flex;
+            }
+
+            li a {
+                display: inline-block;
+                margin-right: 50px;
+                width: 35px;
+                height: 35px;
+                padding-top: 4px;
+                background-color: transparent;
+                border: 1px solid #B8C1EC;
+                text-align: center;
+                border-radius: 5px;
+
+                .social-links-icon {
+                    color: #B8C1EC;
+                }
+
+                &:hover {
+                    background-color: #B8C1EC;
+
+                    .social-links-icon {
+                        color: #232946;
+                    }
+                }
+            }
+        }
+
+        .link {
+            width: 20%;
+            margin-left: 100px;
+
+            ul li a{
+                margin-bottom: 15px;
+                font-family: 'Kalam', cursive;
+                font-size: 19px;
+                color: #EEBBC3;
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            ul li a:hover {
+                color: #ebe2e3
+            }
+        }
+    }
+
+    .copy-right{
+        margin:70px 0;
+        text-align: center;
+        color:#B8C1EC;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 13px;
+        word-spacing: 5px;
+        background-color: #232946;
+        padding:10px 0;
+    }
+
+}
