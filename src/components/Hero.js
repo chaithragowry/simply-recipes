@@ -20,7 +20,7 @@ function Hero() {
             <div className='hero-nav'>
                 <div className='logo'>Simply Recipes</div>
                 <div className='nav'>
-                <Link to="/" onClick={() => scrollToSection('hero-section')} className={location.pathname === '/' ? 'active' : ''}>Home</Link>
+                <Link to="/" onClick={() => scrollToSection('hero-section')} className={location.pathname === '/' || location.pathname === '/simply-recipes' ? 'active' : ''}>Home</Link>
                <Link to="/specialdishes" onClick={() => scrollToSection('specialdishes-section')}  className={location.pathname === '/specialdishes' ? 'active' : ''}>Dishes</Link>
                <Link to="/dishesfiltered" onClick={() => scrollToSection('dishesfiltered-section')} className={location.pathname === '/dishesfiltered' ? 'active' : ''}>Menu</Link>
                <Link to="/checkout" onClick={() => scrollToSection('checkout-section')} className={location.pathname === '/checkout' ? 'active' : ''}>Checkout</Link>
