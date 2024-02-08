@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simply-recipes/static/css/main.6eab791b.css",
-    "main.js": "/simply-recipes/static/js/main.0f22995b.js",
+    "main.css": "/simply-recipes/static/css/main.0b52d06d.css",
+    "main.js": "/simply-recipes/static/js/main.630bcdb1.js",
     "static/media/footer.png": "/simply-recipes/static/media/footer.f33d75533e02f107040d.png",
     "static/media/cover.png": "/simply-recipes/static/media/cover.780002d392c84a37f210.png",
     "static/media/food4.png": "/simply-recipes/static/media/food4.2c39286d7c2db626ae88.png",
     "index.html": "/simply-recipes/index.html",
-    "main.6eab791b.css.map": "/simply-recipes/static/css/main.6eab791b.css.map",
-    "main.0f22995b.js.map": "/simply-recipes/static/js/main.0f22995b.js.map"
+    "main.0b52d06d.css.map": "/simply-recipes/static/css/main.0b52d06d.css.map",
+    "main.630bcdb1.js.map": "/simply-recipes/static/js/main.630bcdb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eab791b.css",
-    "static/js/main.0f22995b.js"
+    "static/css/main.0b52d06d.css",
+    "static/js/main.630bcdb1.js"
   ]
 }
