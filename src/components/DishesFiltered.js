@@ -18,7 +18,6 @@ function DishesFiltered(props) {
 
     let [showPopUp, setShowPopUp] = useState(false);
     let [currentDish, setCurrentDish] = useState('');
-    let [addToCartItem, setAddToCartItem] = useState([]);
     const [showAddToCart, setShowAddToCart] = useState(false);
 
 
